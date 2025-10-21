@@ -12,7 +12,7 @@ import DirectionIcon from '../../icons/DirectionIcon';
 import * as utils from '../../utils';
 import { getThemeConfig } from '../../utils';
 import SiteContext from '../SiteContext';
-import DelayAlert from './DelayAlert';
+// import DelayAlert from './DelayAlert';
 import type { SharedProps } from './interface';
 import Logo from './Logo';
 import Navigation from './Navigation';
@@ -341,7 +341,7 @@ const Header: React.FC = () => {
           <MenuOutlined className="nav-phone-icon" />
         </Popover>
       )}
-      <DelayAlert lang={lang as 'cn' | 'en'} />
+      {/* <DelayAlert lang={lang as 'cn' | 'en'} /> */}
       <Row style={{ flexFlow: 'nowrap', height: 64 }}>
         <Col {...colProps[0]}>
           <Logo {...sharedProps} location={location} />
